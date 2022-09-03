@@ -48,15 +48,14 @@ body {
     margin: 0;
     font-size: 0.9rem;
   }
-  /**
-  *main body section
-  */
+  
+  /*main body section*/
+
   .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
   img {
     height: 22.5rem;
     align-items: center;
@@ -72,3 +71,31 @@ body {
     overflow: hidden;
   }
  
+  /*banner section*/
+  
+  #banner {
+    color: white;
+    object-fit: contain;
+    height: 750px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  #banner__contents {
+    margin-left: 70px;
+    padding-top: 19rem;
+    height: 190px;
+  
+  }
+  #banner__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+  }
+  #banner__description {
+    width: 50rem;
+    line-height: 1.5;
+    font-size: .9rem;
+    max-width: 560px;
+    height: 80px;
+  }
