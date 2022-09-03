@@ -5,6 +5,7 @@
  const main = document.querySelector('.main')
  const movieHeader = document.getElementById('movie__header')
 
+
  //getting movies
  getMovies(API_URL)
  
@@ -91,3 +92,8 @@ fetch(API_URL)
         return 'red'
     }
 }
+
+/**
+ * search bar section
+ */
+

@@ -81,12 +81,6 @@ body {
     background-position: center center;
     background-size: cover;
   }
-  #banner__contents {
-    margin-left: 70px;
-    padding-top: 19rem;
-    height: 190px;
-  
-  }
   #banner__title {
     font-size: 2.5rem;
     font-weight: 800;
@@ -99,41 +93,7 @@ body {
     max-width: 560px;
     height: 80px;
   }
-  #banner__button {
-    cursor: pointer;
-    color: white;
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: .2vw;
-    padding: .5rem 2rem .5rem 2rem;
-    margin: 0 1rem 1rem 0;
-    background-color: rgba(51,51,51,.5);
-  }
-  #banner__button:hover {
-    color: black;
-    background-color: var(--whiteish);
-    transition: all .3s;
-  }
-  #banner__fadeUp {
-    height: 6.4rem;
-    background: linear-gradient(to top,
-      transparent,
-      rgba(40,40,40, .71),
-      black
-    );
-  }
-  #banner__fadeBottom {
-    margin-top: 15.5rem;
-    position: relative;
-    height: 6.4rem;
-    background: linear-gradient(to bottom,
-      transparent,
-      rgba(37,37,37, .71),
-      black
-    );
-  }
-
+ 
   /*div container section*/
 
   .img__container {
@@ -213,7 +173,7 @@ body {
   }
 
   /* applying @media rule*/
-  
+
   @media (max-width: 485px) {
     .movie {
       transform: scale(1.15);
