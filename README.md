@@ -1,7 +1,7 @@
 
 # Event-movies hub
 
-## By Tania Osano
+## Author Name: Tania Osano 
 
 ## Introduction
 

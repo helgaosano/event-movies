@@ -211,3 +211,19 @@ body {
   .movie__info span.orange {
     color: orange;
   }
+
+  /* applying @media rule*/
+  
+  @media (max-width: 485px) {
+    .movie {
+      transform: scale(1.15);
+      margin: 2.5rem auto;
+    }
+    .form {
+      width: 100%;
+      margin: auto;
+    }
+    .search {
+      width: 100%;
+    }
+  }
