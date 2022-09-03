@@ -4,3 +4,14 @@ const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
 const form = document.querySelector('.form')
 const main = document.querySelector('.main')
 const movieHeader = document.getElementById('movie__header')
+
+//getting movies
+getMovies(API_URL)
+
+async function getMovies(url){
+    
+    const response = await axios.get(url)
+    const data = await response.data
+    showMovies(data.results)
+    
+}
