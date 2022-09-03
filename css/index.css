@@ -195,7 +195,7 @@ body {
     font-weight: bold;
   }
 
-  /*vote rate section*/
+  /*vote color section*/
   
   .movie__info span.green {
     color: var(--green);
