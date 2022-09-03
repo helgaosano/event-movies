@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary: #343434;
+  --secondary: #121212;
+  --whiteish: #f1f1ff;
+  --blackish: #0e0e0c;
+  --red: #ff6b6b;
+  --yellow: #ffe66d;
+  --green: #99ffc9;
+  --img-width: 100%;
+}
+
+/*Custom Scroll Bar*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
