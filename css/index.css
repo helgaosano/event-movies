@@ -172,7 +172,7 @@ body {
     color: orange;
   }
 
-  /* applying @media rule*/
+  /*applying @media rule*/
 
   @media (max-width: 485px) {
     .movie {
@@ -187,3 +187,26 @@ body {
       width: 100%;
     }
   }
+
+  /*search bar section*/
+
+  .search__bar {
+    background-color: var(--whiteish);
+    border: 2px solid var(--blackish);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    color: #f1f1f1;
+    width: 25rem;
+  }
+  
+  .search__bar::placeholder {
+    color: var(--blackish);
+  }
+  
+  .search__bar:focus {
+    outline: none;
+    color: var(--blackish);
+    background-color: var(--whiteish);
+  }  
