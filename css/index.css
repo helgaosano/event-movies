@@ -200,11 +200,9 @@ body {
     color: #f1f1f1;
     width: 25rem;
   }
-  
   .search__bar::placeholder {
     color: var(--blackish);
   }
-  
   .search__bar:focus {
     outline: none;
     color: var(--blackish);
