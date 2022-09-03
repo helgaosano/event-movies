@@ -73,3 +73,21 @@ fetch(API_URL)
 
     });
 }
+/** 
+ *Vote rate function
+ */
+
+ function getClassByRate(vote){
+    if(vote>=8){
+        return 'green'
+    }
+    if(vote>=7){
+        return 'yellow'
+    }
+    if(vote>=5){
+        return 'orange'
+    }
+    else{
+        return 'red'
+    }
+}
