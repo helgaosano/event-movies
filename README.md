@@ -14,15 +14,12 @@ A user is able to scan through the movies displayed and see a brief overview of 
 
 ## Requirements
 
-- Access to a computer 
+- Access to a computer or any other device
 - Access to internet
 
 ## Phases
 
-- I created HTML, CSS, JavaSript, README and license files. 
-- Setup basic layout of the page that was to be displayed using HTML and CSS.
-- JavaScript to make the page interactive.
-- Fetch method to fetch data from a public API
+I created HTML, CSS, JavaSript, README and license files. First I setup basic layout of the page that was to be displayed using HTML and CSS. I then used JavaScript to make the web page interactive. I also used fetch method to fetch data from a public API. Responsive website for small screens are implemented using using Media Queries.
 
 ## Installation Process
 
