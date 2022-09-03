@@ -166,3 +166,20 @@ body {
     font-weight: bold;
     text-align: center;
   }
+  .overview {
+    background-color: var(--primary);
+    color: var(--whiteish);
+    opacity: 0.95;
+    padding: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+  }
+  .movie:hover .overview {
+    transform: translateY(0);
+  }
+  
