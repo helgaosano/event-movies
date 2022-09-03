@@ -48,4 +48,16 @@ body {
     margin: 0;
     font-size: 0.9rem;
   }
-  
+  /**
+  *main body section
+  */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  img {
+    height: 22.5rem;
+    align-items: center;
+  }
