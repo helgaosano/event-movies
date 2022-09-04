@@ -29,6 +29,6 @@ I created HTML, CSS, JavaSript, README and license files. First I setup basic la
 
 ## Get a live link
 
-Click this link to view the live application: 
+Click this link to view the live application: https://helgaosano.github.io/event-movies/
 
 
