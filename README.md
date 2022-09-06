@@ -9,8 +9,8 @@ This is a simple responsive page that displays movies and shows available worldw
 
 ## Description 
 
-The objective of this web application is to enable users to check available movies and interact with the navigation seamlessly.
-A user is able to scan through the movies displayed and see a brief overview of each film and their ratings.
+The objective of this web application is to enable users to check available movies through the search bar and interact with the navigation seamlessly.
+A user is able to scan through the movies displayed and see a brief overview of each film, release year and their ratings.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ A user is able to scan through the movies displayed and see a brief overview of 
 
 ## Phases
 
-I created HTML, CSS, JavaSript, README and license files. First I setup basic layout of the page that was to be displayed using HTML and CSS. I then used JavaScript to make the web page interactive. I also used fetch method to fetch data from a public API. Responsive website for small screens are implemented using using Media Queries.
+I created HTML, CSS, JavaSript, README and license files. First I setup basic layout of the page that was to be displayed using HTML and CSS. I then used JavaScript to make the web page interactive. I also used fetch method to fetch data from a public API. Responsive website for small screens are implemented using Media Queries.
 
 ## Installation Process
 
